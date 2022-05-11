@@ -5,13 +5,9 @@
 | Personne            | Rôle                      | Github                                   | Linkedin                                                                               |
 | ------------------- | ------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------- |
 | ARUMAINATHAN Rijenth        | JavaScript | [@Rijenth](https://github.com/Rijenth) | [A_Rijenth](https://www.linkedin.com/in/rijentha/)                       
-| BAYEL Clement        | Design | [@Clement](https://github.com/cbayel)  |     [B_Clement](https://www.linkedin.com/in/bayelc/)                 |
 | RAMOS Nolan        | JavaScript |   |                    |
-| KERKENI Fares        | JavaScript |   |                   |
-| OUALLET Sandie        | Design |   |                   |
-| MILLAURIAUX Phara        | Design |   |                   |
 | BAKAYOKO Gaoussou       | JavaScript | [Kader](https://github.com/gaoubak)|  |                   |
-| LESOING Valentin       | JavaScript |  [Valentin](https://github.com/valentin-lsg) |                   |
+| LESOING Valentin       | JavaScript + Design |  [Valentin](https://github.com/valentin-lsg) |                   |
 
 ---
 
