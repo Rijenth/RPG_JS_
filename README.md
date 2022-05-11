@@ -1,13 +1,5 @@
 
 # Projet FrontEnd
-# Les participants au projet :
-
-| Personne            | Rôle                      | Github                                   | Linkedin                                                                               |
-| ------------------- | ------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------- |
-| ARUMAINATHAN Rijenth        | JavaScript | [@Rijenth](https://github.com/Rijenth) | [A_Rijenth](https://www.linkedin.com/in/rijentha/)                       
-| RAMOS Nolan        | JavaScript |   |                    |
-| BAKAYOKO Gaoussou       | JavaScript | [Kader](https://github.com/gaoubak)|  |                   |
-| LESOING Valentin       | JavaScript + Design |  [Valentin](https://github.com/valentin-lsg) |                   |
 
 ---
 
