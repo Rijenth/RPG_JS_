@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div id="container_game">
+        <h1>Space Survivors</h1>
+        <div class="tools">
+            <div id="open_all_map">
+                M
+            </div>
+            <div id="open_all_commandes">
+                C 
+            </div>
+            <div id="open_all_inventory">
+                I
+            </div>
+        </div>
+        <div id="inventory">
+            <div id="close_inventory">x</div>
+            <div id="all_objet"></div>
+        </div>
+        <div id="all_map">
+            <div id="close_all_map">x</div>
+            <img id="imagemap" src="img/all_map1.png" alt="">
+        </div>
+        <div id="all_commandes">
+            <div id="close_all_commandes">x</div>
+            <div class="all_touches">
+                <div class="touche">
+                    <div class="image_touche">
+                        <input id="run_right" class="new_touche" type="text" maxlength="1" value="d" onkeyup="new_touche(event,'run_right'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>run to right</span>
+                    
+                </div>
+                <div class="touche">
+                    <div class="image_touche">
+                        <input id="run_left" class="new_touche" type="text" maxlength="1" value="q" onkeyup="new_touche(event,'run_left'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>run to left</span>
+                    
+                </div>
+                <div class="touche">
+                    <div class= "image_touche">
+                        <input  id="run_up" class="new_touche" type="text" maxlength="1" value="z" onkeyup="new_touche(event,'run_up'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>run to top</span>
+                    
+                </div>
+                <div class="touche">
+                    <div class="image_touche">
+                        <input id="run_down" class="new_touche" type="text" maxlength="1" value="s" onkeyup="new_touche(event,'run_down'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>run to bottom</span>
+                    
+                </div>
+                <div class="touche">
+                    <div class= "image_touche">
+                        <input  id="open_map" class="new_touche" type="text" maxlength="1" value="m" onkeyup="new_touche(event,'open_map'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>open all map</span>
+                    
+                </div>
+                <div class="touche">
+                    <div class="image_touche">
+                        <input id="open_commandes" class="new_touche" type="text" maxlength="1" value="c" onkeyup="new_touche(event,'open_commandes'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>open commandes</span>
+                    
+                </div>
+                <div class="touche">
+                    <div class="image_touche">
+                        <input id="open_inventory" class="new_touche" type="text" maxlength="1" value="i" onkeyup="new_touche(event,'open_inventory'); this.select()">
+                        <img src="img/keyboard.png" alt="">
+                    </div>
+                    <span>open commandes</span>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- dialogue -->
+            <div id ="container" class="container" style="visibility:hidden">
+                <div id="text"></div>
+            </div>
+
+        <div id="map"></div>
+    </div>
+    
+    <script src="init.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/evenement.js"></script>   
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>

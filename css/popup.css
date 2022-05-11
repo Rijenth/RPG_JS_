@@ -1,0 +1,124 @@
+.tools {
+
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100px;
+}
+
+#open_all_map,
+#open_all_commandes,
+#open_all_inventory {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#all_map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+}
+
+#all_map img {
+    width: 60%;
+    object-fit: cover;
+}
+
+#all_commandes {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 5;
+    height: 100vh;
+    width: 300px;
+    padding: 50px;
+    transition: ease-in-out 0.5s;
+    background: white;
+    border-right: solid black;
+}
+
+.all_touches {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.all_touches::-webkit-scrollbar {
+    width: 0px
+}
+
+.touche {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.touche .image_touche {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.touche input {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}
+
+.touche .image_touche img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.touche span {
+    width: 100%;
+    text-align: center;
+}
+
+#close_all_map,
+#close_all_commandes,
+#close_inventory {
+    position: absolute;
+    top: 5px;
+    right: 17.5px;
+    font-size: 32px;
+    color: white;
+}
+
+#close_all_commandes,
+#close_inventory {
+    color: black;
+}
+#inventory{
+    position: absolute;
+    left: -100%;
+    top: 0;
+    z-index: 10;
+    height: 100vh;
+    width: 200px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.5s;
+}
