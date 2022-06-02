@@ -5,7 +5,7 @@
 
 ## Comment accéder au site
 
-1. Le site sera en ligne très prochainement.
+1. survivors.arijenth.com
 
 
 ## Comment utiliser le site (Fonctionnalité disponible)
